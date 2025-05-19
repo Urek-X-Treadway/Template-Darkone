@@ -1,0 +1,37 @@
+body{
+    background-color: #121212;
+    color: darkgoldenrod;
+    text-align: center;
+    font-family: 'Junicode','Times New Roman', Times, serif;
+}
+
+
+@font-face {
+  font-family: 'Junicode';
+  src: url('./Fonts/Junicode/Junicode.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+button{
+    background-color: darkgoldenrod;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    width: 170px;
+    height: 35px;
+    font-size: large;
+    color: #121212;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid darkgoldenrod;
+    border-radius: 7px;
+    width: 170px;
+    height: 35px;
+    font-size: large;
+    color: darkgoldenrod;
+}
+
+img{
+    border: 3px solid darkgoldenrod;
+}
